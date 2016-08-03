@@ -1,0 +1,65 @@
+[
+	{
+		"args":
+		{
+			"to": "bol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "{"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "this."
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "trans"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "late"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "(\""
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "\""
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ")}"
+		},
+		"command": "insert"
+	}
+]

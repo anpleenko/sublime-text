@@ -1,0 +1,21 @@
+[
+{
+"args": null,
+"command": "duplicate_line"
+},
+{
+"args":
+{
+"block": false
+},
+"command": "toggle_comment"
+},
+{
+"args":
+{
+"by": "lines",
+"forward": false
+},
+"command": "move"
+}
+]

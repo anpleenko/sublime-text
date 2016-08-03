@@ -1,0 +1,89 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 1,
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/SublimeLinter/Base16 Ocean Light (SL).tmTheme",
+	"color_scheme_option": 2,
+	"drag_text": false,
+	"draw_centered": true,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"file_exclude_patterns":
+	[
+		"*.glue",
+		"*.DS_Store",
+		"config.codekit",
+		"prepros.cfg"
+	],
+	"find_selected_text": true,
+	"findreplace_small": true,
+	"folder_exclude_patterns":
+	[
+		".idea",
+		".git",
+		".sass-cache",
+		".codekit-cache"
+	],
+	"font_face": "Hack Italic",
+	"font_size": 16,
+	"hayaku_CSS_colors_case": "lowercase",
+	"hayaku_CSS_colors_length": "short",
+	"hayaku_CSS_prefixes_disable": true,
+	"hayaku_CSS_syntax_quote_symbol": "'",
+	"hayaku_CSS_units_for_unitless_numbers": true,
+	"hayaku_user_aliases":
+	{
+		"z": "z-index"
+	},
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Better CoffeeScript",
+		"Djaneiro",
+		"EasyMotion",
+		"floobits",
+		"SyncedSideBar"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.map",
+		"*.min.js",
+		"bundle.js"
+	],
+	"line_numbers": false,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets_content": false,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": false,
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"scroll_speed": 5.0,
+	"show_encoding": true,
+	"show_full_path": true,
+	"sidebar_small": true,
+	"soda_folder_icons": true,
+	"spacegray_sidebar_font_large": true,
+	"tabs_small": true,
+	"theme": "SoDaReloaded Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": false
+}
