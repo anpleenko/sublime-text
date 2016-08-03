@@ -5,7 +5,7 @@ Install on Windows
 ```
 rm -rf ~/AppData/Roaming/Sublime\ Text\ 3
 cd ~/AppData/Roaming
-git clone https://github.com/vaeum/sync.SublimeText.git Sublime\ Text\ 3
+git clone https://github.com/vaeum/sublime-text.git Sublime\ Text\ 3
 ```
 
 install Easy Motion plugin to sublime text 3 on Windows
@@ -22,7 +22,7 @@ Install on Mac
 ```
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3
 cd ~/Library/Application\ Support
-git clone https://github.com/vaeum/sync.SublimeText.git Sublime\ Text\ 3/
+git clone https://github.com/vaeum/sublime-text.git Sublime\ Text\ 3/
 ```
 
 install Easy Motion plugin to sublime text 3 on Mac
