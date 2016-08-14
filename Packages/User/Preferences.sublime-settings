@@ -28,10 +28,11 @@
 		".idea",
 		".git",
 		".sass-cache",
-		".codekit-cache"
+		".codekit-cache",
+		"node_modules"
 	],
 	"font_face": "Hack Italic",
-	"font_size": 16,
+	"font_size": 15,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_colors_length": "short",
 	"hayaku_CSS_prefixes_disable": true,
@@ -45,6 +46,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"AngularJS",
 		"Better CoffeeScript",
 		"Djaneiro",
 		"EasyMotion",
@@ -61,6 +63,7 @@
 		"*.log",
 		"*.map",
 		"*.min.js",
+		"*.min.css",
 		"bundle.js"
 	],
 	"line_numbers": false,
