@@ -1,7 +1,7 @@
 [
     { "keys": ["alt+a"], "command": "run_macro_file", "args": {"file": "Packages/User/JS-consolelog.sublime-macro"} },
     { "keys": ["super+."], "command": "run_macro_file", "args": {"file": "Packages/User/DupliComment.sublime-macro"} },
-    { "keys": ["super+alt+,"], "command": "toggle_status_bar" },
+    // { "keys": ["super+alt+,"], "command": "toggle_status_bar" },
     { "keys": ["super+alt+;"],"command": "toggle_setting","args":{"setting": "line_numbers"}},
     { "keys": ["super+alt+'"], "command": "toggle_tabs" },
 
@@ -21,8 +21,7 @@
     // -------- Search --------
 
     { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
-    { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
-    { "keys": ["shift+alt+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["shift+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
     // -------- Search & Repalce--------
     { "keys": ["shift+alt+z"], "command": "soft_undo" },
@@ -110,26 +109,17 @@
         "args":{
             "options": [
                 {
-                    "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
-                    "theme": "SoDaReloaded Light.sublime-theme"
-                },{
-                    "color_scheme": "Packages/Solarized Color Scheme/Solarized (Dark).tmTheme",
-                    "theme": "SoDaReloaded Dark.sublime-theme"
-                },{
                     "color_scheme": "Packages/User/Base16 Ocean Light.tmTheme",
                     "theme": "SoDaReloaded Light.sublime-theme"
                 },{
                     "color_scheme": "Packages/User/Behave.tmTheme",
                     "theme": "SoDaReloaded Dark.sublime-theme"
                 },{
-                    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme",
-                    "theme": "SoDaReloaded Light.sublime-theme"
-                },{
-                    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+                    "color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
                     "theme": "SoDaReloaded Dark.sublime-theme"
                 },{
                     "color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
-                    "theme": "SoDaReloaded Dark.sublime-theme"
+                    "theme": "Cobalt2.sublime-theme"
                 }
             ]
         }

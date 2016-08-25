@@ -3,10 +3,10 @@
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
-	"caret_extra_width": 1,
+	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Base16 Ocean Light (SL).tmTheme",
-	"color_scheme_option": 2,
+	"color_scheme_option": 0,
 	"drag_text": false,
 	"draw_centered": true,
 	"draw_white_space": "all",
@@ -32,7 +32,7 @@
 		"node_modules"
 	],
 	"font_face": "Hack Italic",
-	"font_size": 15,
+	"font_size": 16,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_colors_length": "short",
 	"hayaku_CSS_prefixes_disable": true,
@@ -47,11 +47,11 @@
 	"ignored_packages":
 	[
 		"AngularJS",
+		"AutoFileName",
 		"Better CoffeeScript",
 		"Djaneiro",
 		"EasyMotion",
-		"floobits",
-		"SyncedSideBar"
+		"floobits"
 	],
 	"indent_guide_options":
 	[
@@ -64,7 +64,10 @@
 		"*.map",
 		"*.min.js",
 		"*.min.css",
-		"bundle.js"
+		"bundle.js",
+		"*/node_modules/*",
+		"*/coverage/*",
+		"*/build/*"
 	],
 	"line_numbers": false,
 	"line_padding_bottom": 1,
