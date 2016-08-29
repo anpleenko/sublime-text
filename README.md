@@ -8,7 +8,7 @@ cd ~/AppData/Roaming
 git clone https://github.com/vaeum/sublime-text.git Sublime\ Text\ 3
 ```
 
-Install Easy Motion plugin to sublime text 3 on **Windows**
+Install Easy Motion plugin to Sublime Text 3 on **Windows**
 
 ```
 cd ~/AppData/Roaming/Sublime\ Text\ 3/Packages
@@ -25,7 +25,7 @@ cd ~/Library/Application\ Support
 git clone https://github.com/vaeum/sublime-text.git Sublime\ Text\ 3/
 ```
 
-Install Easy Motion plugin to sublime text 3 on **Mac**
+Install Easy Motion plugin to Sublime Text 3 on **Mac**
 
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages

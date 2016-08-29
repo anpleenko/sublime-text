@@ -9,6 +9,7 @@
 	"color_scheme_option": 0,
 	"drag_text": false,
 	"draw_centered": true,
+	"atomic_save": true,
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -32,7 +33,7 @@
 		"node_modules"
 	],
 	"font_face": "Hack Italic",
-	"font_size": 16,
+	"font_size": 15,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_colors_length": "short",
 	"hayaku_CSS_prefixes_disable": true,
