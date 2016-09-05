@@ -158,6 +158,13 @@
     ]
   },
 
+  { "keys": ["j", "j"], "command": "exit_insert_mode",
+      "context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false } ]
+  },
+  { "keys": ["о", "о"], "command": "exit_insert_mode",
+      "context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false } ]
+  },
+
   //vim cyrilic keys
   { "keys": ["ctrl+х"], "command": "exit_insert_mode",
       "context":
