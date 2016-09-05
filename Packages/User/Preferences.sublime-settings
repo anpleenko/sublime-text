@@ -1,5 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
+	"atomic_save": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
@@ -9,7 +10,6 @@
 	"color_scheme_option": 0,
 	"drag_text": false,
 	"draw_centered": true,
-	"atomic_save": true,
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
