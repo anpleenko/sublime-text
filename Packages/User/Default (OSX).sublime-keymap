@@ -117,7 +117,7 @@
                     "color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
                     "theme": "SoDaReloaded Dark.sublime-theme"
                 },{
-                    "color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+                    "color_scheme": "Packages/User/One Dark.tmTheme",
                     "theme": "Cobalt2.sublime-theme"
                 }
             ]
