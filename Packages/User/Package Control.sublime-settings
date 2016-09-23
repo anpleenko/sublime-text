@@ -2,6 +2,8 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"SideBarEnhancements",
+		"Tag"
 	],
 	"installed_packages":
 	[
@@ -66,8 +68,7 @@
 		"Syntax Highlighting for Sass",
 		"Table Editor",
 		"Tag",
-		"Theme - Cobalt2",
-		"Theme - SoDaReloaded",
+		"Theme - Soda",
 		"ToggleQuotes",
 		"Trimmer"
 	]
