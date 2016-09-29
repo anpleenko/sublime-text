@@ -1,4 +1,15 @@
 [
+
+  //toggle line numbers
+  { "keys": ["f9"],"command": "toggle_setting","args":{"setting": "line_numbers"}},
+
+  // Evernote keys
+  { "keys": ["ctrl+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
+  { "keys": ["ctrl+s"], "command": "send_to_evernote", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid", "operator": "equal", "operand": false}] },
+
+  // toggle minimap
+  {"keys": ["f10"], "command": "toggle_minimap"},
+
   // https://john-dugan.com/visual-studio-code-vs-sublime-text/
   // https://github.com/cyberxndr/sublime-vintage-cyrillic
   // -------- Editor --------

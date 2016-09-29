@@ -37,8 +37,8 @@
 		".codekit-cache",
 		"node_modules"
 	],
-	"font_face": "Hack Italic",
-	"font_size": 16,
+	"font_face": "Hack",
+	"font_size": 15,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_colors_length": "short",
 	"hayaku_CSS_prefixes_disable": true,
@@ -58,9 +58,7 @@
 		"Djaneiro",
 		"EasyMotion",
 		"floobits",
-		"JavaScript",
-		"SideBarEnhancements",
-		"Tag"
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[
@@ -95,9 +93,8 @@
 	"spacegray_sidebar_font_large": true,
 	"tabs_small": true,
 	"theme": "Soda Light 3.sublime-theme",
+	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": false

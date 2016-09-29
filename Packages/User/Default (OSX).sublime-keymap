@@ -4,6 +4,7 @@
     // { "keys": ["super+alt+,"], "command": "toggle_status_bar" },
     { "keys": ["super+alt+;"],"command": "toggle_setting","args":{"setting": "line_numbers"}},
     { "keys": ["super+alt+'"], "command": "toggle_tabs" },
+    { "keys": ["super+shift+t"], "command": "delete_trailing_spaces" },
 
     // -------- Editor --------
 
@@ -86,6 +87,10 @@
 
     { "keys": ["super+alt+n"], "command": "advanced_new_file_new"},
 
+    // evernote key
+    { "keys": ["super+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
+    { "keys": ["super+s"], "command": "send_to_evernote", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid", "operator": "equal", "operand": false}] },
+
     // swap lines in vim
     { "keys": ["ctrl+super+k"], "command": "swap_line_up", "context" : [{"key": "setting.command_mode"}]},
     { "keys": ["ctrl+super+j"], "command": "swap_line_down", "context" : [{"key": "setting.command_mode"}]},
@@ -155,8 +160,13 @@
     { "keys": ["alt+3"], "command": "move_to_group", "args": { "group": 2 } },
     { "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } },
 
-    // { "keys": ["ctrl+up"], "command": "swap_line_up" },
-    // { "keys": ["ctrl+down"], "command": "swap_line_down" },
+    { "keys": ["ctrl+s"], "command": "expand_region" },
+    {
+      "keys": ["ctrl+d"],
+      "args": {"undo": true},
+      "command": "expand_region",
+      "context": [{ "key": "expand_region_soft_undo" }]
+    },
 
     // fix key vim key binding
     { "keys": ["s"], "command": "set_action_motion", "args": {
@@ -165,7 +175,6 @@
         "motion": "expand_selection" },
         "context": [{"key": "setting.command_mode"}]
     },
-
 
     //vim cyrilic keys
     { "keys": ["ctrl+х"], "command": "exit_insert_mode",

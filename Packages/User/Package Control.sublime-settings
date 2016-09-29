@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"SideBarEnhancements",
-		"Tag"
 	],
 	"installed_packages":
 	[
@@ -31,6 +29,7 @@
 		"EJS",
 		"Emmet",
 		"Evernote",
+		"ExpandRegion",
 		"Expression",
 		"File Rename",
 		"Floobits",
@@ -67,9 +66,9 @@
 		"Syntax Highlighting for PostCSS",
 		"Syntax Highlighting for Sass",
 		"Table Editor",
-		"Tag",
 		"Theme - Soda",
 		"ToggleQuotes",
+		"TrailingSpaces",
 		"Trimmer"
 	]
 }
