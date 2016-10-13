@@ -97,6 +97,7 @@
 	"soda_folder_icons": true,
 	"spacegray_sidebar_font_large": true,
 	"tabs_small": true,
+	"show_definitions": false,
 	"theme": "Soda Light 3.sublime-theme",
 	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
