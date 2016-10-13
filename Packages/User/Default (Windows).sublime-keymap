@@ -176,6 +176,14 @@
       "context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false } ]
   },
 
+  // fix key vim key binding
+  { "keys": ["s"], "command": "set_action_motion", "args": {
+      "action": "enter_insert_mode",
+      "action_args": {"insert_command": "right_delete"},
+      "motion": "expand_selection" },
+      "context": [{"key": "setting.command_mode"}]
+  },
+
   //vim cyrilic keys
   { "keys": ["ctrl+х"], "command": "exit_insert_mode",
       "context":
