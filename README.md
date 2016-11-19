@@ -42,7 +42,7 @@ cd ~/.config/
 git clone https://github.com/vaeum/sublime-text.git sublime-text-3
 ```
 
-Install Easy Motion plugin to Sublime Text 3 on **Mac**
+Install Easy Motion plugin to Sublime Text 3 on **Linux**
 
 ```
 cd ~/.config/sublime-text-3/Packages/
