@@ -7,7 +7,7 @@
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Base16 Ocean Light (SL).tmTheme",
-	"color_scheme_option": 0,
+	"color_scheme_option": 1,
 	"drag_text": false,
 	"draw_centered": true,
 	"draw_white_space": "all",
@@ -37,8 +37,8 @@
 		".codekit-cache",
 		"node_modules"
 	],
-	"font_face": "Hack",
-	"font_size": 15,
+	"font_face": "Hasklig",
+	"font_size": 16,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_colors_length": "short",
 	"hayaku_CSS_prefixes_disable": true,
@@ -59,6 +59,7 @@
 		"EasyMotion",
 		"floobits",
 		"JavaScript",
+		"TernJS",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -78,8 +79,8 @@
 		"*/build/*"
 	],
 	"line_numbers": false,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
 	"match_brackets_content": false,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
@@ -98,7 +99,7 @@
 	"soda_folder_icons": true,
 	"spacegray_sidebar_font_large": true,
 	"tabs_small": true,
-	"theme": "Soda Light 3.sublime-theme",
+	"theme": "Sea Lion.sublime-theme",
 	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,

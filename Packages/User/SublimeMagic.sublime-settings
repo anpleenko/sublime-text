@@ -1,0 +1,37 @@
+{
+    "spells": [
+        {
+            "name": "Toggle true/false",
+            "spell": "toggle_values",
+            "args": {
+                "values": ["true", "false"]
+            }
+        },{
+            "name": "Toggle let/const/var",
+            "spell": "toggle_values",
+            "args": {
+                "values": ["let", "const", "var"]
+            }
+        },{
+            "name": "Toggle CSS direction",
+            "context": {
+                "scope": ["source\\.(css|less|sass|scss)"]
+            },
+            "spell": "toggle_values",
+            "args": {
+                "values": ["-top", "-bottom", "-left", "-right"]
+            }
+        },{
+            "name": "Add spaces around {} brackets",
+            "context": {
+                "scope": ["source\\.(ruby|js|jsx)"],
+                "line_matches": ["\\{(.+)\\}"]
+            },
+            "spell": "perform_line_regex",
+            "args": {
+                "pattern": "\\{(.+)\\}",
+                "replacement": "{ \\1 }"
+            }
+        },
+    ]
+}

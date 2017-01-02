@@ -13,6 +13,9 @@
     { "keys": ["f11"], "command": "toggle_full_screen" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
 
+    { "keys": ["super+shift+r"], "command": "sublime_magic"},
+    // { "keys": ["k", "k"], "command": "sublime_magic", "context": [{ "key": "vi_command_mode_aware" }] },
+
     // Multiple Panes
     { "keys": ["alt+shift+1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]]} },
     { "keys": ["alt+shift+2"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]} },
@@ -118,13 +121,29 @@
             "options": [
                 {
                     "color_scheme": "Packages/User/Base16 Ocean Light.tmTheme",
-                    "theme": "Soda Light 3.sublime-theme"
+                    // "theme": "Soda Light 3.sublime-theme"
+                    "theme": "ayu-light2.sublime-theme",
+
+                },{
+                    "color_scheme": "Packages/User/Base16 Ocean Light.tmTheme",
+                    // "theme": "Soda Light 3.sublime-theme"
+                    "theme": "Sea Lion.sublime-theme",
+
                 },{
                     "color_scheme": "Packages/User/Behave.tmTheme",
-                    "theme": "Soda Dark 3.sublime-theme"
+                    // "theme": "Soda Dark 3.sublime-theme"
+                    "theme": "ayu-dark2.sublime-theme",
                 },{
                     "color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
-                    "theme": "Soda Dark 3.sublime-theme"
+                    // "theme": "Soda Dark 3.sublime-theme"
+                    "theme": "ayu-dark2.sublime-theme",
+                },{
+                    "color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
+                    "theme": "ayu-mirage.sublime-theme",
+                },{
+                    "color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+                    // "theme": "Soda Dark 3.sublime-theme"
+                    "theme": "ayu-dark2.sublime-theme",
                 }
             ]
         }
