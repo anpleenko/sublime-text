@@ -1,6 +1,18 @@
 {
     "spells": [
         {
+            "name": "Add spaces around {} brackets",
+            "context": {
+                "scope": ["source\\.(ruby|js|jsx)"],
+                "line_matches": ["\\{[^ ](.+)[^ ]\\}"]
+            },
+            "spell": "perform_line_regex",
+            "args": {
+                "pattern": "\\{(.+)\\}",
+                "replacement": "{ \\1 }"
+            }
+        },
+        {
             "name": "Toggle true/false",
             "spell": "toggle_values",
             "args": {
@@ -21,17 +33,6 @@
             "args": {
                 "values": ["-top", "-bottom", "-left", "-right"]
             }
-        },{
-            "name": "Add spaces around {} brackets",
-            "context": {
-                "scope": ["source\\.(ruby|js|jsx)"],
-                "line_matches": ["\\{(.+)\\}"]
-            },
-            "spell": "perform_line_regex",
-            "args": {
-                "pattern": "\\{(.+)\\}",
-                "replacement": "{ \\1 }"
-            }
-        },
+        }
     ]
 }
