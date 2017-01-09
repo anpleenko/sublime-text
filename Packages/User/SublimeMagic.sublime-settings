@@ -4,15 +4,16 @@
             "name": "Add spaces around {} brackets",
             "context": {
                 "scope": ["source\\.(ruby|js|jsx)"],
-                "line_matches": ["\\{[^ ](.+)[^ ]\\}"]
+                "line_matches": ["\\{[^ ](.+)[^ ]\\}"],
+                "selection_empty": true,
+                // "selection_matches": ["\\{[^ ](.+)[^ ]\\}"]
             },
             "spell": "perform_line_regex",
             "args": {
                 "pattern": "\\{(.+)\\}",
                 "replacement": "{ \\1 }"
             }
-        },
-        {
+        },{
             "name": "Toggle true/false",
             "spell": "toggle_values",
             "args": {
@@ -21,6 +22,9 @@
         },{
             "name": "Toggle let/const/var",
             "spell": "toggle_values",
+            "context": {
+                "scope": ["source\\.(js|jsx)"]
+            },
             "args": {
                 "values": ["let", "const", "var"]
             }

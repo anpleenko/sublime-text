@@ -38,7 +38,7 @@
 		"node_modules"
 	],
 	"font_face": "Ubuntu Mono",
-	"font_size": 17,
+	"font_size": 18,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_colors_length": "short",
 	"hayaku_CSS_prefixes_disable": true,
