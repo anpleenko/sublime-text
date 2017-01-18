@@ -121,6 +121,8 @@
   { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} },
 
+  { "keys": ["ctrl+shift+w"], "command": "close_other_tabs" },
+
   // enable emmet tab in jsx file
   {
     "keys": ["tab"],
