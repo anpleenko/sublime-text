@@ -77,13 +77,13 @@
 		"*/coverage/*",
 		"*/build/*"
 	],
-	"line_numbers": false,
+	"line_numbers": true,
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"match_brackets_content": false,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
-	"preview_on_click": false,
+	"preview_on_click": true,
 	"rulers":
 	[
 		80
