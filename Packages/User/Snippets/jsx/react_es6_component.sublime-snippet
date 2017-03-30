@@ -1,12 +1,14 @@
 <snippet>
     <content><![CDATA[
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
   static propTypes = {
+    data: PropTypes.array,
   };
 
   static defaultProps = {
+    data: [],
   };
 
   constructor(props) {
