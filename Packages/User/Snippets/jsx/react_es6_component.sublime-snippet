@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component } from 'react';
+
+export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+  static propTypes = {
+  };
+
+  static defaultProps = {
+  };
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+    };
+  }
+
+  render() {
+    return (
+      <div></div>
+    );
+  }
+}
+
+]]></content>
+    <tabTrigger>rcc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: ES6 Component</description>
+</snippet>
