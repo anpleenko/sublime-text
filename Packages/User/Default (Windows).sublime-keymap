@@ -30,7 +30,6 @@
   { "keys": ["ctrl+3"], "command": "focus_group", "args": { "group": 2 } },
   { "keys": ["ctrl+4"], "command": "focus_group", "args": { "group": 3 } },
 
-
   // -------- Traversal --------
 
   // Left/Right
@@ -91,6 +90,28 @@
   { "keys": ["alt+shift+up"], "command": "expand_region" }, // ! requires ExpandRegion !
   { "keys": ["alt+shift+down"], "command": "expand_region", "args": {"undo": true}, "context": [{ "key": "expand_region_soft_undo" }]}, // ! requires ExpandRegion !
 
+  //toggle color theme
+  {
+      "keys": ["ctrl+m"],
+      "command": "toggle_color_scheme",
+      "args":{
+          "options": [
+              {
+                  "color_scheme": "Packages/User/Dawn.tmTheme",
+                  "theme": "Soda Light 3.sublime-theme"
+              },{
+                  "color_scheme": "Packages/User/Base16 Ocean Light.tmTheme",
+                  "theme": "Soda Light 3.sublime-theme"
+              },{
+                  "color_scheme": "Packages/User/Behave.tmTheme",
+                  "theme": "Soda Dark 3.sublime-theme"
+              },{
+                  "color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
+                  "theme": "Soda Dark 3.sublime-theme"
+              }
+          ]
+      }
+  },
 
   // -------- Code --------
 

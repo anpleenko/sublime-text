@@ -120,6 +120,9 @@
         "args":{
             "options": [
                 {
+                    "color_scheme": "Packages/User/Dawn.tmTheme",
+                    "theme": "Soda Light 3.sublime-theme"
+                },{
                     "color_scheme": "Packages/User/Base16 Ocean Light.tmTheme",
                     "theme": "Soda Light 3.sublime-theme"
                 },{
