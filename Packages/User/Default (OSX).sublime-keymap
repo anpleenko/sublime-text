@@ -1,7 +1,7 @@
 [
     { "keys": ["alt+a"], "command": "run_macro_file", "args": {"file": "Packages/User/JS-consolelog.sublime-macro"} },
     { "keys": ["super+."], "command": "run_macro_file", "args": {"file": "Packages/User/DupliComment.sublime-macro"} },
-    // { "keys": ["super+alt+,"], "command": "toggle_status_bar" },
+    { "keys": ["super+alt+l"], "command": "toggle_status_bar" },
     { "keys": ["super+alt+;"],"command": "toggle_setting","args":{"setting": "line_numbers"}},
     { "keys": ["super+alt+'"], "command": "toggle_tabs" },
     { "keys": ["super+shift+t"], "command": "delete_trailing_spaces" },
@@ -12,20 +12,44 @@
     { "keys": ["super+\\"], "command": "toggle_side_bar" },
     { "keys": ["f11"], "command": "toggle_full_screen" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
-
     { "keys": ["super+shift+r"], "command": "sublime_magic"},
     // { "keys": ["k", "k"], "command": "sublime_magic", "context": [{ "key": "vi_command_mode_aware" }] },
 
     // Multiple Panes
-    { "keys": ["alt+shift+1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]]} },
-    { "keys": ["alt+shift+2"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]} },
-    { "keys": ["alt+shift+3"], "command": "set_layout", "args": {"cols": [0.0, 0.33, 0.66, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]} },
-    { "keys": ["alt+shift+4"], "command": "set_layout", "args": {"cols": [0.0, 0.25, 0.5, 0.75, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]} },
+    { "keys": ["alt+shift+1"], "command": "set_layout", "args": {
+        "cols": [0.0, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1]]}
+    },
+
+    { "keys": ["alt+shift+2"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]}
+    },
+
+    { "keys": ["alt+shift+3"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.33, 0.66, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]}
+    },
+
+    { "keys": ["alt+shift+4"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]}
+    },
+
+    // Multiple Cursors
+    { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["shift+alt+up"], "command": "single_selection", "args": {"forward": true} },
+    { "keys": ["shift+alt+down"], "command": "jump_to_last_region" },
 
     // -------- Search --------
 
     { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
-    { "keys": ["shift+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    // { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
     // -------- Search & Repalce--------
     { "keys": ["shift+alt+z"], "command": "soft_undo" },
@@ -33,11 +57,17 @@
     //plugins hotkey
     { "keys": ["super+,"], "command": "append_comma"},
     { "keys": ["super+shift+,"], "command": "append_comma", "args": {"enter_new_line": "true"}},
-    { "keys": ["super+alt+j"], "command": "log_magic_down", "context": [{ "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }]},
-    { "keys": ["super+alt+k"], "command": "log_magic_up", "context": [{ "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }]},
+    { "keys": ["super+alt+j"], "command": "log_magic_down", "context": [
+        { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }
+    ]},
+
+    { "keys": ["super+alt+k"], "command": "log_magic_up", "context": [
+        { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }
+    ]},
 
     // overriding Close Other Window Plugin Shortcuts
     { "keys": ["super+shift+w"], "command": "close_other_tabs" },
+
     { "keys": ["super+alt+control+w"], "command": "close_other_windows" },
 
     // enable emmet tab in jsx file
@@ -99,6 +129,7 @@
     { "keys": ["ctrl+super+j"], "command": "swap_line_down", "context" : [{"key": "setting.command_mode"}]},
 
     // quik commit key
+
     { "keys": ["super+g", "super+a"], "command": "git_add_choice"},
     { "keys": ["super+g", "super+c"], "command": "git_commit"},
     { "keys": ["super+g", "super+p"], "command": "git_push_current_branch"},
@@ -106,10 +137,8 @@
     { "keys": ["super+g", "super+q"], "command": "git_quick_commit"},
     { "keys": ["super+g", "super+s"], "command": "git_status"},
     { "keys": ["super+g", "super+f"], "command": "git_raw", "args": { "command": "git fetch", "may_change_files": false }},
-
     { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": false}, "context" : [{"key": "setting.command_mode"}] },
     { "keys": ["ctrl+shift+j"], "command": "select_lines", "args": {"forward": true}, "context" : [{"key": "setting.command_mode"}] },
-
     { "keys": ["ctrl+shift+л"], "command": "select_lines", "args": {"forward": false}, "context" : [{"key": "setting.command_mode"}] },
     { "keys": ["ctrl+shift+о"], "command": "select_lines", "args": {"forward": true}, "context" : [{"key": "setting.command_mode"}] },
 
@@ -135,19 +164,29 @@
             ]
         }
     },
-    { "keys": ["j", "j"], "command": "exit_insert_mode",
-        "context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false } ]
-    },
-    { "keys": ["о", "о"], "command": "exit_insert_mode",
-        "context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false } ]
-    },
-    { "keys": ["f3"], "command": "find_next" },
-    {"keys": ["ctrl+alt+left"] ,"command": "set_layout",
-        "args": {"cols": [0.0, 0.75, 1.0] ,"rows": [0.0, 1.0] ,"cells": [[0, 0, 1, 1], [1, 0, 2, 1]] }
-    },
-    { "keys": ["ctrl+alt+right"] ,"command": "set_layout",
-        "args": {"cols": [0.0, 0.25, 1.0] ,"rows": [0.0, 1.0] ,"cells": [[0, 0, 1, 1], [1, 0, 2, 1]] }
-    },
+    // { "keys": ["f3"], "command": "find_next" },
+
+    { "keys": ["j", "j"], "command": "exit_insert_mode", "context": [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]},
+
+    { "keys": ["о", "о"], "command": "exit_insert_mode", "context": [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]},
+
+    { "keys": ["ctrl+alt+left"] ,"command": "set_layout", "args": {
+        "cols": [0.0, 0.75, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }},
+
+    { "keys": ["ctrl+alt+right"] ,"command": "set_layout", "args": {
+        "cols": [0.0, 0.25, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }},
 
     // bookmark key
     { "keys": ["f2"], "command": "next_bookmark" },
@@ -216,8 +255,9 @@
     { "keys": ["я", "и"], "command" : "scroll_cursor_line_to_bottom", "context": [{"key": "setting.command_mode"}] },
     { "keys": ["Я", "Я"], "command" : "vi_save_and_exit", "context": [{"key": "setting.command_mode"}] },
     { "keys": ["ш"], "command": "enter_insert_mode", "context": [{"key": "setting.command_mode"}, {"key": "selection_empty"} ] },
-    { "keys": ["Ш"], "command": "enter_insert_mode", "args":
-        {"insert_command": "vi_move_to_first_non_white_space_character"},
+    { "keys": ["Ш"],
+        "command": "enter_insert_mode",
+        "args": {"insert_command": "vi_move_to_first_non_white_space_character"},
         "context": [{"key": "setting.command_mode"}]
     },
 
@@ -251,8 +291,12 @@
         ]
     },
 
-    { "keys": ["щ"], "command": "enter_insert_mode", "args":
-        {"insert_command": "run_macro_file", "insert_args": {"file": "Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["щ"],
+        "command": "enter_insert_mode",
+        "args": {
+            "insert_command": "run_macro_file",
+            "insert_args": {"file": "Packages/Default/Add Line.sublime-macro"}
+        },
         "context": [{"key": "setting.command_mode"}]
     },
     { "keys": ["щ"], "command": "vi_reverse_selections_direction",
