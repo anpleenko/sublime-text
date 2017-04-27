@@ -116,8 +116,8 @@
   // -------- Code --------
 
   // Lines
-  { "keys": ["alt+up"], "command": "swap_line_up" },
-  { "keys": ["alt+down"], "command": "swap_line_down" },
+  // { "keys": ["alt+up"], "command": "swap_line_up" },
+  // { "keys": ["alt+down"], "command": "swap_line_down" },
   { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
   { "keys": ["ctrl+j"], "command": "join_lines" },
   { "keys": ["ctrl+shift+v"], "command": "paste_and_indent" },
