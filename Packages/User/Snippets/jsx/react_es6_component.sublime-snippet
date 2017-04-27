@@ -3,6 +3,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+const cn = require('bem-cn')('${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}');
+
 export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
   static propTypes = {
     data: PropTypes.array,
