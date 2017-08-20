@@ -20,9 +20,6 @@
 		"*.glue",
 		"*.log",
 		"*.map",
-		"*.min.js",
-		"*.min.css",
-		"bundle.js",
 		"*.DS_Store",
 		"config.codekit",
 		"prepros.cfg"
