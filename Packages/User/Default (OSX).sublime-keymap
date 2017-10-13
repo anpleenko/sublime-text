@@ -56,7 +56,7 @@
 
     //plugins hotkey
     { "keys": ["super+,"], "command": "append_comma"},
-    { "keys": ["super+shift+,"], "command": "append_comma", "args": {"enter_new_line": "true"}},
+    // { "keys": ["super+shift+,"], "command": "append_comma", "args": {"enter_new_line": "true"}},
     { "keys": ["super+alt+j"], "command": "log_magic_down", "context": [
         { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }
     ]},
@@ -205,9 +205,9 @@
     { "keys": ["alt+3"], "command": "move_to_group", "args": { "group": 2 } },
     { "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } },
 
-    { "keys": ["ctrl+s"], "command": "expand_region" },
+    { "keys": ["alt+s"], "command": "expand_region" },
     {
-      "keys": ["ctrl+d"],
+      "keys": ["alt+d"],
       "args": {"undo": true},
       "command": "expand_region",
       "context": [{ "key": "expand_region_soft_undo" }]
