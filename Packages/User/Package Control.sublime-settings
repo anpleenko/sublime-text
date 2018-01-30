@@ -8,7 +8,6 @@
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
-		"ApacheConf.tmLanguage",
 		"AppendComma",
 		"AppendSemiColon",
 		"AutoAligner",
@@ -66,19 +65,20 @@
 		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
 		"SublimeMagic",
 		"SuperSelect",
 		"Swap Selections",
 		"SwapStrings",
 		"Syntax Highlighting for PostCSS",
-		"Syntax Highlighting for Sass",
 		"Table Editor",
 		"Theme - One Dark",
 		"Theme - Soda",
 		"TodoReview",
 		"ToggleQuotes",
 		"TrailingSpaces",
-		"Trimmer"
+		"Trimmer",
+		"SublimeLinter-eslint",
+		"ApacheConf",
+		"Sass"
 	]
 }
