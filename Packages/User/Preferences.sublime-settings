@@ -99,6 +99,7 @@
 	"soda_folder_icons": true,
 	"tabs_small": true,
 	"theme": "One Dark.sublime-theme",
+	"tab_size": 2,
 	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
