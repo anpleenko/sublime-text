@@ -48,14 +48,9 @@
 	"ignored_packages":
 	[
 		"AutoFileName",
-		"Better CoffeeScript",
 		"Djaneiro",
-		"EasyMotion",
 		"EJS",
-		"Evernote",
-		"Floobits",
 		"JavaScript",
-		"Jekyll",
 		"jQuery",
 		"Liquid",
 		"Vintage"
