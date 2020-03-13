@@ -91,7 +91,6 @@
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
-	"scroll_speed": 5.0,
 	"show_definitions": false,
 	"show_encoding": true,
 	"show_full_path": true,
