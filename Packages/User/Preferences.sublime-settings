@@ -6,7 +6,7 @@
 	"caret_extra_top": 3,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"drag_text": false,
 	"draw_centered": true,
 	"draw_white_space": "all",
@@ -42,7 +42,7 @@
 	"hayaku_CSS_units_for_unitless_numbers": true,
 	"hayaku_user_aliases":
 	{
-		"z": "z-index"
+		"z": "z-index",
 	},
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -54,7 +54,7 @@
 		"JavaScript",
 		"jQuery",
 		"Liquid",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -91,12 +91,12 @@
 	"sidebar_small": true,
 	"tab_size": 2,
 	"tabs_small": true,
-	"theme": "One Dark.sublime-theme",
+	"theme": "Default Dark.sublime-theme",
 	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": false
+	"word_wrap": false,
 }

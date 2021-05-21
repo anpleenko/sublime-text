@@ -58,10 +58,9 @@
 		"SwapStrings",
 		"Syntax Highlighting for PostCSS",
 		"Table Editor",
-		"Theme - One Dark",
 		"TodoReview",
 		"ToggleQuotes",
 		"TrailingSpaces",
-		"Trimmer"
-	]
+		"Trimmer",
+	],
 }
