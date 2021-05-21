@@ -14,8 +14,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"fallback_encoding": "Cyrillic (Windows 1251)",
-	"file_exclude_patterns":
-	[
+	"file_exclude_patterns": [
 		"*.glue",
 		"*.log",
 		"*.map",
@@ -25,8 +24,7 @@
 	],
 	"find_selected_text": true,
 	"findreplace_small": true,
-	"folder_exclude_patterns":
-	[
+	"folder_exclude_patterns": [
 		".idea",
 		".git",
 		".sass-cache",
@@ -40,14 +38,13 @@
 	"hayaku_CSS_prefixes_disable": true,
 	"hayaku_CSS_syntax_quote_symbol": "'",
 	"hayaku_CSS_units_for_unitless_numbers": true,
-	"hayaku_user_aliases":
-	{
-		"z": "z-index",
+	"hayaku_user_aliases": {
+			"z": "z-index",
 	},
-	"highlight_line": true,
+	"highlight_gutter": false,
+	"highlight_line": false,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
+	"ignored_packages": [
 		"AutoFileName",
 		"Djaneiro",
 		"EJS",
@@ -56,13 +53,11 @@
 		"Liquid",
 		"Vintage",
 	],
-	"indent_guide_options":
-	[
+	"indent_guide_options": [
 		"draw_normal",
 		"draw_active"
 	],
-	"index_exclude_patterns":
-	[
+	"index_exclude_patterns": [
 		"*.log",
 		"*.map",
 		"*.min.js",
@@ -79,8 +74,7 @@
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": true,
-	"rulers":
-	[
+	"rulers": [
 		80
 	],
 	"save_on_focus_lost": true,
