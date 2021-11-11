@@ -20,9 +20,9 @@ git checkout st3
 Install on **Mac**
 
 ```
-rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3
+rm -rf ~/Library/Application\ Support/Sublime\ Text
 cd ~/Library/Application\ Support
-git clone https://github.com/vaeum/sublime-text.git Sublime\ Text\ 3/
+git clone https://github.com/vaeum/sublime-text.git Sublime\ Text
 ```
 
 Install Easy Motion plugin to Sublime Text 3 on **Mac**
