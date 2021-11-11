@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"AlignTab",
 		"ApacheConf",
@@ -13,7 +14,6 @@
 		"AutoAligner",
 		"AutoFileName",
 		"Babel",
-		"Better CoffeeScript",
 		"BetterFindBuffer",
 		"BracketHighlighter",
 		"Case Conversion",
