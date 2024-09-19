@@ -33,7 +33,7 @@
     ".codekit-cache",
     "node_modules"
   ],
-  "font_face": "Iosevka",
+  "font_face": "Ubuntu Sans Mono",
   "font_size": 14,
   "gtk_client_side_window_decorations": false,
   "hayaku_CSS_colors_case": "lowercase",
@@ -42,7 +42,7 @@
   "hayaku_CSS_syntax_quote_symbol": "'",
   "hayaku_CSS_units_for_unitless_numbers": true,
   "hayaku_user_aliases": {
-    "z": "z-index"
+    "z": "z-index",
   },
   "highlight_gutter": false,
   "highlight_line": false,
@@ -53,8 +53,7 @@
     "EJS",
     "JavaScript",
     "Liquid",
-    "TypeScript",
-    "Vintage"
+    "Vintage",
   ],
   "indent_guide_options": ["draw_normal", "draw_active"],
   "index_exclude_patterns": [
@@ -90,5 +89,5 @@
   "trim_trailing_white_space_on_save": true,
   "update_check": false,
   "vintage_start_in_command_mode": true,
-  "word_wrap": false
+  "word_wrap": false,
 }
