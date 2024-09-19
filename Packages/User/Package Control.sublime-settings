@@ -35,7 +35,6 @@
 		"Increment Selection",
 		"Jade",
 		"JsPrettier",
-		"LESS",
 		"Liquid",
 		"LogMagic",
 		"MultiEditUtils",
@@ -61,5 +60,6 @@
 		"TrailingSpaces",
 		"Trimmer",
 		"TypeScript",
+		"Less",
 	],
 }
