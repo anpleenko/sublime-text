@@ -1,5 +1,9 @@
 [
     // Multiple Cursors
-    { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+    // swap lnes
+    { "keys": ["ctrl+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+down"], "command": "swap_line_down" },
 ]
