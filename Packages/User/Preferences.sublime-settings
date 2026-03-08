@@ -33,7 +33,7 @@
     ".codekit-cache",
     "node_modules"
   ],
-  "font_face": "Hack",
+  "font_face": "Ubuntu Sans Mono",
   "font_size": 11,
   "gtk_client_side_window_decorations": false,
   "hayaku_CSS_colors_case": "lowercase",
