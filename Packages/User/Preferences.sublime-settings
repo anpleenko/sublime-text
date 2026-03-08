@@ -71,8 +71,6 @@
   ],
   "light_color_scheme": "Breakers.sublime-color-scheme",
   "light_theme": "Default.sublime-theme",
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
   "match_brackets_content": false,
   "open_files_in_new_window": false,
   "preview_on_click": true,
