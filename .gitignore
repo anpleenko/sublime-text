@@ -1,26 +1,11 @@
-# folders
 /Cache
 /Index
 /Local
 /Distrib
 /Backup
+/Trash
 /Lib
-.git
 
-# OS
-.DS_Store
-.DS_Store?
-Icon?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# nodejs npm modules
-/node_modules
-
-# Sublime files
 bh_unicode_properties.cache
 Package Control.last-run
 Package Control.ca-list
