@@ -1,14 +1,14 @@
 {
   "always_show_minimap_viewport": true,
+  "animation_enabled": false,
   "atomic_save": true,
-  "bold_folder_labels": true,
   "caret_extra_bottom": 3,
   "caret_extra_top": 3,
   "caret_extra_width": 2,
   "close_windows_when_empty": false,
   "color_scheme": "auto",
-  "dark_color_scheme": "Mariana.sublime-color-scheme",
-  "dark_theme": "Adaptive.sublime-theme",
+  "dark_color_scheme": "One Dark.sublime-color-scheme",
+  "dark_theme": "One.sublime-theme",
   "drag_text": false,
   "draw_centered": true,
   "draw_white_space": "none",
@@ -18,7 +18,7 @@
   "fallback_encoding": "Cyrillic (Windows 1251)",
   "file_exclude_patterns": [
     "*.map",
-    "*.DS_Store",
+    "*.DS_Store"
   ],
   "find_selected_text": true,
   "findreplace_small": true,
@@ -38,10 +38,10 @@
   "hayaku_CSS_syntax_quote_symbol": "'",
   "hayaku_CSS_units_for_unitless_numbers": true,
   "hayaku_user_aliases": {
-    "z": "z-index",
+    "z": "z-index"
   },
   "highlight_gutter": false,
-  "highlight_line": false,
+  "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages": [
     "AutoFileName",
@@ -49,11 +49,11 @@
     "EJS",
     "JavaScript",
     "Liquid",
-    "Vintage",
+    "Vintage"
   ],
   "indent_guide_options": [
     "draw_normal",
-    "draw_active"
+    "solid"
   ],
   "index_exclude_patterns": [
     "*.log",
@@ -65,14 +65,12 @@
     "*/coverage/*",
     "*/build/*"
   ],
-  "light_color_scheme": "Breakers.sublime-color-scheme",
-  "light_theme": "Default.sublime-theme",
+  "light_color_scheme": "One Light.sublime-color-scheme",
+  "light_theme": "One.sublime-theme",
+  "margin": 0,
   "match_brackets_content": false,
   "open_files_in_new_window": false,
   "preview_on_click": true,
-  "rulers": [
-    80
-  ],
   "save_on_focus_lost": true,
   "scroll_past_end": true,
   "show_definitions": false,
@@ -88,6 +86,5 @@
   "trim_trailing_white_space_on_save": true,
   "update_check": false,
   "vintage_start_in_command_mode": true,
-  "word_wrap": false,
-  "index_files": true,
+  "word_wrap": false
 }
