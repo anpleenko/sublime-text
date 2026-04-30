@@ -27,7 +27,7 @@
     ".git",
     ".sass-cache",
     ".codekit-cache",
-    "node_modules"
+    "node_modules",
   ],
   "font_face": "Ubuntu Sans Mono",
   "font_size": 12,
@@ -38,7 +38,7 @@
   "hayaku_CSS_syntax_quote_symbol": "'",
   "hayaku_CSS_units_for_unitless_numbers": true,
   "hayaku_user_aliases": {
-    "z": "z-index"
+    "z": "z-index",
   },
   "highlight_gutter": false,
   "highlight_line": true,
@@ -49,11 +49,11 @@
     "EJS",
     "JavaScript",
     "Liquid",
-    "Vintage"
+    "Vintage",
   ],
   "indent_guide_options": [
     "draw_normal",
-    "solid"
+    "solid",
   ],
   "index_exclude_patterns": [
     "*.log",
@@ -86,5 +86,6 @@
   "trim_trailing_white_space_on_save": true,
   "update_check": false,
   "vintage_start_in_command_mode": true,
-  "word_wrap": false
+  "word_wrap": false,
+  "index_files": false,
 }
