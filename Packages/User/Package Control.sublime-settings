@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"AlignTab",
 		"ApacheConf",
 		"AppendComma",
@@ -13,7 +12,6 @@
 		"AutoAligner",
 		"AutoFileName",
 		"Babel",
-		"BracketHighlighter",
 		"Case Conversion",
 		"Clickable URLs",
 		"Djaneiro",
