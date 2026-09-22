@@ -44,11 +44,6 @@
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages": [
-    "AutoFileName",
-    "Djaneiro",
-    "EJS",
-    "JavaScript",
-    "Liquid",
     "Vintage",
   ],
   "indent_guide_options": [
