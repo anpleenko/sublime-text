@@ -39,7 +39,7 @@
     "z": "z-index",
   },
   "highlight_gutter": false,
-  "highlight_line": true,
+  "highlight_line": false,
   "highlight_modified_tabs": true,
   "ignored_packages": [
     "Vintage",
