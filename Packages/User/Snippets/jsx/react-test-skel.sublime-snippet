@@ -17,5 +17,3 @@ describe('$1', () => {
   <tabTrigger>rts</tabTrigger>
   <scope>source.js</scope>
 </snippet>
-
-

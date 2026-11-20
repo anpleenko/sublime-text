@@ -1,0 +1,28 @@
+name: Linting file
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  editorconfig:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: wget https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v4.0.2/editorconfig-checker_4.0.2_linux_amd64.deb
+      - run: sudo apt install ./editorconfig-checker_4.0.2_linux_amd64.deb
+      - run: rm editorconfig-checker_4.0.2_linux_amd64.deb
+      - run: editorconfig-checker
+
+  whitespace-format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: wget https://github.com/DavidPal/whitespace-format-rust/releases/download/0.1.9/whitespace-format_0.1.9-1_amd64.deb
+      - run: sudo apt install ./whitespace-format_0.1.9-1_amd64.deb
+      - run: rm whitespace-format_0.1.9-1_amd64.deb
+      - run: make format ARGS=--check-only
